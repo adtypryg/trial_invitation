@@ -22,13 +22,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+  padding: 2rem;
   transition: 1s ease-in;
 }
 
 .welcome-page .welcome-text {
   font-size: 2rem;
-  margin-top: 30vh;
+  margin-top: 30%;
   margin-bottom: 4rem;
 }
 
@@ -54,7 +54,6 @@ body {
 
 .welcome-page h3 {
   margin-bottom: 2rem;
-  opacity: 0;
 }
 
 .welcome-page h2 {
@@ -86,7 +85,6 @@ body {
   background-color: darkslategray;
   color: white;
   height: 100vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,7 +128,7 @@ body {
   text-align: center;
   margin-bottom: 3rem;
   opacity: 0;
-  transform: translateX(-20rem);
+  transform: translateX(-4rem);
   transition: 1s;
 }
 
@@ -138,7 +136,7 @@ body {
   font-size: 1.6rem;
   font-weight: lighter;
   opacity: 0;
-  transform: translateX(20rem);
+  transform: translateX(4rem);
   transition: 1s;
 }
 
